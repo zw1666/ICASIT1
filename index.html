@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -18,6 +18,10 @@
         body {
             line-height: 1.6;
             background-color: #f5f7fa;
+            background-image: url('https://picsum.photos/1920/1080'); /* 添加背景图片 */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
 
         header {
@@ -52,6 +56,8 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.9); /* 给内容容器添加半透明背景 */
+            border-radius: 8px;
         }
 
         .section {
@@ -94,7 +100,7 @@
             margin-top: 3rem;
         }
 
-        /* 小屏幕设备（如手机） */
+        /* Small screen devices (e.g., mobile phones) */
         @media (max-width: 767px) {
             nav ul {
                 flex-direction: column;
@@ -106,9 +112,9 @@
             }
         }
 
-        /* 中等屏幕设备（如平板） */
+        /* Medium screen devices (e.g., tablets) */
         @media (min-width: 768px) and (max-width: 991px) {
-            /* 可添加针对平板的样式 */
+            /* You can add styles for tablets here */
         }
     </style>
 </head>
@@ -116,126 +122,126 @@
 <body>
     <header>
         <h1>6th IEEE International Conference on Automotive Systems and Intelligent Transport (ICASIT 2025)</h1>
-        <p>May 1-3, 2025 • Hong Kong Convention and Exhibition Centre • Hong Kong, China</p>
+        <p>May 1 - 3, 2025 • Hong Kong Convention and Exhibition Centre • Hong Kong, China</p>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#home">首页</a></li>
-            <li><a href="#conference-info">会议信息</a></li>
-            <li><a href="#call-for-papers">征文通知</a></li>
-            <li><a href="#registration">注册与费用</a></li>
-            <li><a href="#speeches">演讲内容</a></li>
-            <li><a href="#sponsors">赞助商</a></li>
-            <li><a href="#committees">委员会</a></li>
-            <li><a href="#faq">常见问题</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#conference-info">Conference Information</a></li>
+            <li><a href="#call-for-papers">Call for Papers</a></li>
+            <li><a href="#registration">Registration and Fees</a></li>
+            <li><a href="#speeches">Speeches</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="#committees">Committees</a></li>
+            <li><a href="#faq">FAQ</a></li>
         </ul>
     </nav>
 
     <div class="container">
         <section class="section" id="home">
-            <h2>会议亮点</h2>
+            <h2>Conference Highlights</h2>
             <ul>
-                <li>聚焦智能汽车系统与未来出行，涵盖四大核心子主题</li>
-                <li>邀请特斯拉、CATL、Waymo等行业领袖及MIT/斯坦福学者担任 keynote speaker</li>
-                <li>包含技术报告、Workshop、企业参观、社交晚宴等多元活动</li>
-                <li>双盲评审机制，设立最佳论文/学生论文奖</li>
+                <li>Focus on intelligent automotive systems and future mobility, covering four core sub - themes.</li>
+                <li>Invite industry leaders from Tesla, CATL, Waymo, and scholars from MIT/Stanford as keynote speakers.</li>
+                <li>Include diverse activities such as technical reports, workshops, enterprise visits, and social dinners.</li>
+                <li>Adopt a double - blind review mechanism and set up awards for the best paper and the best student paper.</li>
             </ul>
         </section>
 
         <section class="section" id="conference-info">
-            <h2>会议信息</h2>
-            <h3>学术准备</h3>
+            <h2>Conference Information</h2>
+            <h3>Academic Preparation</h3>
             <ul>
-                <li>主主题：Automotive Systems and Intelligent Transport</li>
-                <li>子主题：智能网联节能车辆、智能电池系统、混合动力能量管理、端到端协同自动驾驶</li>
-                <li>科学委员会：邀请IEEE Fellow及顶级期刊主编担任主席</li>
+                <li>Main Theme: Automotive Systems and Intelligent Transport</li>
+                <li>Sub - themes: Intelligent Connected Energy - efficient Vehicles, Intelligent Battery Systems, Hybrid Energy Management, End - to - End Collaborative Autonomous Driving</li>
+                <li>Science Committee: Invite IEEE Fellows and editors - in - chief of top journals as chairs.</li>
             </ul>
 
-            <h3>日程安排</h3>
-            <p>3天议程包括开幕式、主旨演讲、技术分会、Workshop、企业参观、社交活动</p>
-            <p>首日亮点：特斯拉高管演讲"汽车智能化未来趋势"，CATL实验室主任分享电池技术突破</p>
+            <h3>Schedule</h3>
+            <p>The 3 - day agenda includes the opening ceremony, keynote speeches, technical sessions, workshops, enterprise visits, and social activities.</p>
+            <p>Highlight on the first day: A speech by a Tesla executive on "The Future Trends of Automotive Intelligence" and a sharing by the director of a CATL laboratory on battery technology breakthroughs.</p>
         </section>
 
         <section class="section" id="call-for-papers">
-            <h2>征文通知</h2>
-            <p>提交截止日期：</p>
+            <h2>Call for Papers</h2>
+            <p>Submission Deadlines:</p>
             <ul>
-                <li>摘要：2025年1月30日</li>
-                <li>全文：2025年2月15日</li>
+                <li>Abstract: January 30, 2025</li>
+                <li>Full Paper: February 15, 2025</li>
             </ul>
-            <p>主题范围（包括但不限于）：</p>
+            <p>Topic Scope (including but not limited to):</p>
             <ul>
-                <li>自动驾驶系统与协同控制</li>
-                <li>V2X通信与安全技术</li>
-                <li>智能充电基础设施与能源互联</li>
+                <li>Autonomous Driving Systems and Collaborative Control</li>
+                <li>V2X Communication and Security Technologies</li>
+                <li>Intelligent Charging Infrastructure and Energy Interconnection</li>
             </ul>
         </section>
 
         <section class="section" id="registration">
-            <h2>注册与费用</h2>
+            <h2>Registration and Fees</h2>
             <table>
-                <caption>早鸟注册（2025年4月1日前）</caption>
+                <caption>Early Bird Registration (Before April 1, 2025)</caption>
                 <tr>
-                    <th>类型</th>
-                    <th>人民币</th>
-                    <th>美元</th>
+                    <th>Type</th>
+                    <th>RMB</th>
+                    <th>USD</th>
                 </tr>
                 <tr>
-                    <td>普通参会者</td>
-                    <td>3500元</td>
-                    <td>480美元</td>
+                    <td>Regular Participants</td>
+                    <td>3,500 CNY</td>
+                    <td>480 USD</td>
                 </tr>
                 <tr>
-                    <td>学生参会者</td>
-                    <td>3000元</td>
-                    <td>413美元</td>
+                    <td>Student Participants</td>
+                    <td>3,000 CNY</td>
+                    <td>413 USD</td>
                 </tr>
             </table>
-            <p>支付方式：银行转账、信用卡、PayPal</p>
+            <p>Payment Methods: Bank Transfer, Credit Card, PayPal</p>
         </section>
 
         <section class="section" id="speeches">
-            <h2>演讲内容</h2>
-            <h3>主旨演讲</h3>
+            <h2>Speeches</h2>
+            <h3>Keynote Speeches</h3>
             <ul>
-                <li>"汽车智能化与网联化未来趋势" - 行业CEO</li>
-                <li>"智能电池系统技术突破" - 顶尖实验室主任</li>
-                <li>"端到端协同自动驾驶挑战" - Waymo/华为专家</li>
+                <li>"Future Trends of Automotive Intelligence and Connectivity" - Industry CEO</li>
+                <li>"Technological Breakthroughs in Intelligent Battery Systems" - Director of a Top Laboratory</li>
+                <li>"Challenges in End - to - End Collaborative Autonomous Driving" - Experts from Waymo/Huawei</li>
             </ul>
         </section>
 
         <section class="section" id="sponsors">
-            <h2>主要赞助商</h2>
+            <h2>Main Sponsors</h2>
             <ul>
-                <li>特斯拉：主赞助商，提供 keynote 演讲及展位</li>
-                <li>CATL：主要赞助商，支持电池技术Workshop</li>
-                <li>Waymo：最佳论文奖赞助，自动驾驶技术分享</li>
+                <li>Tesla: Main sponsor, providing keynote speeches and exhibition booths.</li>
+                <li>CATL: Major sponsor, supporting the battery technology workshop.</li>
+                <li>Waymo: Sponsor of the best paper award, sharing autonomous driving technologies.</li>
             </ul>
         </section>
 
         <section class="section" id="committees">
-            <h2>组织委员会</h2>
-            <h3>大会主席</h3>
-            <p>李陈教授 - 香港科技大学机械与航空航天工程系</p>
-            <h3>程序委员会主席</h3>
-            <p>Maria Santos博士 - IEEE智能交通系统协会</p>
+            <h2>Organizing Committees</h2>
+            <h3>Conference Chair</h3>
+            <p>Professor Li Chen - Department of Mechanical and Aerospace Engineering, The Hong Kong University of Science and Technology</p>
+            <h3>Program Committee Chair</h3>
+            <p>Dr. Maria Santos - IEEE Intelligent Transportation Systems Society</p>
         </section>
 
         <section class="section" id="faq">
-            <h2>常见问题</h2>
+            <h2>Frequently Asked Questions</h2>
             <dl>
-                <dt>如何申请签证邀请信？</dt>
-                <dd>注册后联系会务组，邮箱：registration@ieee-icasit.org</dd>
+                <dt>How to apply for a visa invitation letter?</dt>
+                <dd>Contact the conference secretariat after registration. Email: registration@ieee - icasit.org</dd>
 
-                <dt>学生注册需要什么材料？</dt>
-                <dd>需上传有效学生证件（注册时提交）</dd>
+                <dt>What materials are required for student registration?</dt>
+                <dd>Upload a valid student ID card (submit it during registration).</dd>
             </dl>
         </section>
     </div>
 
     <footer>
-        <p>Contact: +852-2358-1235 | info@ieee-icasit.org</p>
+        <p>Contact: +852 - 2358 - 1235 | info@ieee - icasit.org</p>
         <p>© 2025 IEEE ICASIT. All rights reserved.</p>
     </footer>
 </body>
